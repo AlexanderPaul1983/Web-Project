@@ -1,0 +1,48 @@
+body{
+    padding: 0px;
+}
+
+.home-container {
+    display: flex;
+    height: 800px;
+}
+.slice-container{
+    flex: 50%;
+    background-color: rgb(164, 164, 164);
+}
+.slice-container2{
+    flex: 50%;
+}
+.about-us-container{
+    background-color: black;
+    height: 400px;
+}
+
+img{
+    height: 80px;
+}
+
+.carousel-container{
+    display: flex;
+    height: 400px;
+}
+.carousel-container-item{
+    background-color: black;
+    color: #ffffff;
+    flex: 50%;
+}
+.carousel-container-item2{
+    flex: 50%;
+}
+.carousel-container-2{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+}
+#carouselExample{
+    height: 400px;
+}
+
+
+
+
