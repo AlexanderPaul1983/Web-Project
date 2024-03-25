@@ -58,5 +58,22 @@ img{
     
 }
 
-
-
+.footer-container{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.address-box{
+    flex: 50%;
+}
+.input-box{
+    flex: 50%;
+}
+.form-control::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+  .btn{
+    background-color: cyan;
+    color: black;
+  }
