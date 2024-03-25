@@ -24,7 +24,7 @@ img{
 
 .carousel-container{
     display: flex;
-    height: 400px;
+    height: 100%;
 }
 .carousel-container-item{
     background-color: black;
@@ -34,15 +34,29 @@ img{
 .carousel-container-item2{
     flex: 50%;
 }
-.carousel-container-2{
+.carousel-container-reverse{
     display: flex;
     flex-direction: row-reverse;
-    height: 400px;
+    height: 100%;
 }
-#carouselExample{
+
+
+.carousel-div{
     height: 400px;
 }
 
+.carousel-img{
+    height: 100%;
+    
+}
+.carousel-div-reverse{
+    height: 400px;
+}
+
+.carousel-img-reverse{
+    height: 100%;
+    
+}
 
 
 
