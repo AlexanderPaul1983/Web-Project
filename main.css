@@ -4,7 +4,7 @@ body{
 
 .home-container {
     display: flex;
-    height: 800px;
+    min-height: 400px;
 }
 .slice-container{
     flex: 50%;
@@ -15,7 +15,6 @@ body{
 }
 .about-us-container{
     background-color: black;
-    height: 400px;
 }
 
 img{
@@ -75,5 +74,11 @@ img{
   }
   .btn{
     background-color: cyan;
-    color: black;
+    
   }
+.icons {
+    max-width: 30px;
+    max-height: 30px;
+ }
+
+
