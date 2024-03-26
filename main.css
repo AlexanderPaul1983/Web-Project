@@ -80,5 +80,17 @@ img{
     max-width: 30px;
     max-height: 30px;
  }
+ .dash-btn{
+    height: 6px;
+    background-color: cyan;
+    width: 15%;
+    border: none;
+ }
+ .dash-btn-mount{
+    height: 6px;
+    background-color: cyan;
+    width: 100px;
+    border: none;
 
+ }
 
