@@ -4,7 +4,8 @@ body{
 
 .home-container {
     display: flex;
-    min-height: 400px;
+    width: 100%;
+    height: 600px;
 }
 .slice-container{
     flex: 50%;
@@ -12,6 +13,9 @@ body{
 }
 .slice-container2{
     flex: 50%;
+}
+.container{
+    margin-top: 220px;
 }
 .about-us-container{
     background-color: black;

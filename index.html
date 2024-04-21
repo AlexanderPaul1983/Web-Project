@@ -13,40 +13,33 @@
     <div class="home-container">
 
         <div class="slice-container">
-          <p class="m-5 fs-1 fw-bolder">SLICE</p>
+          <p class="m-5 fs-3 fw-bolder">SLICE</p>
+          <div class="container d-flex justify-content-bottom">
+            <div class="rennräder-box d-flex flex-column">
+              <div class="m-5"><p class="fs-3 fw-bolder lh-1">RENN <br> RÄDER</p></div>
+              <div class="mx-5"><button class="btn homeBtn-1 rounded-5 px-5 py-2 fs-5 text-black">Jetzt Buchen</button></div>
+            </div>
+          </div>
         </div>
 
         <div class="slice-container2">
           <div class="d-flex flex-row justify-content-center m-5">
-            <div class="m-3"><h4>HOME</h4></div>
-            <div class="m-3"><h4>ÜBER UNS</h4></div>
-            <div class="m-3"><h4>COLLECTIONS</h4></div>
-            <div class="m-3"><h4>FAQ</h4></div>
-            <div class="m-3"><h4>KONTAKT</h4></div>
+            <div class="m-1"><h5>HOME</h5></div>
+            <div class="m-1"><h5>ÜBER UNS</h5></div>
+            <div class="m-1"><h5>COLLECTIONS</h5></div>
+            <div class="m-1"><h5>FAQ</h5></div>
+            <div class="m-1"><h5>KONTAKT</h5></div>
+          </div>
+          <div class="container">
+            <div class="mountainbike-box d-flex align-items-end flex-column">
+              <div class="m-5"><p class="fs-3 fw-bolder lh-1 text-uppercase">Mountain <br> bikes</p></div>
+              <div class="mx-5"><button class="btn homeBtn-2 mt-2 rounded-5 px-5 py-2 fs-5 text-black">Jetzt Buchen</button>    
+               </div>
+            </div>        
           </div>
         </div>
-      </div>
-      
-
-    <div class="secondHome-container d-flex flex-row">
-
-      <div class="slice-container">
-        <div class="rennräder-box d-flex flex-column">
-          <div class="m-5"><p class="fs-1 fw-bolder lh-1">RENN <br> RÄDER</p></div>
-          <div class="mx-5"><button class="btn rounded-5 px-5 py-3 fs-5 text-black" style="margin-bottom: 200px;">Collection</button></div>
-        </div>
-      </div>
-      <div class="slice-container2">
-        <div class="mountainbike-box d-flex align-items-end flex-column">
-          <div class="m-5"><p class="fs-1 fw-bolder lh-1 text-uppercase">Mountain <br> bikes</p></div>
-          <div class="mx-5"><button class="btn mt-4 rounded-5 px-5 py-3 fs-5 text-black" style="margin-bottom: 200px;">Collection</button></div>
-        </div>        
-      </div>
     </div>
-       
-
-        
-        
+      
     
 
     <div class="about-us-container d-flex flex-row">
@@ -63,7 +56,8 @@
         illo! Dolorem eligendi, nobis eveniet, eum explicabo est laboriosam, voluptatum 
         molestiae incidunt omnis excepturi ab velit nemo? Dolores, laudantium omnis 
         pariatur dolore deleniti obcaecati temporibus velit exercitationem beatae 
-        doloribus itaque enim cum molestiae illum! Corrupti laborum quisquam velit molestias saepe consequuntur veritatis accusantium, cumque error!</p></div>
+        doloribus itaque enim cum molestiae illum! Corrupti laborum quisquam velit molestias saepe consequuntur veritatis accusantium, cumque error!</p>
+      </div>
 
       </div>
       <div class="w-25"></div>
@@ -206,15 +200,15 @@
 
   <div class="input-box  text-white">
     <div class="input-group mb-4 w-50 mt-5">
-      <input type="text" class="form-control bg-black border-white rounded-0 p-3 fs-5" placeholder="Vor und Nachname">
+      <input type="text" class="form-control form-control-name  bg-black border-white rounded-0 p-3 fs-5" placeholder="Vor und Nachname">
     </div>
     <div class="input-group mb-4 w-50">
-      <input type="text" class="form-control bg-black border-white rounded-0 p-3 fs-5" placeholder="example@email.com">
+      <input type="text" class="form-control form-control-email bg-black border-white rounded-0 p-3 fs-5" placeholder="example@email.com">
     </div>
     <div class="input-group mb-4 w-50">
-      <input type="text" class="form-control bg-black border-white rounded-0 p-3 fs-5" placeholder="Nachricht">
+      <input type="text" class="form-control form-control-text bg-black border-white rounded-0 p-3 fs-5" placeholder="Nachricht">
     </div>
-    <button class="btn mt-5 rounded-5 px-5 py-2 fs-5 text-black mb-5">Absenden</button>
+    <button class="btn btn-absenden mt-5 rounded-5 px-5 py-2 fs-5 text-black mb-5">Absenden</button>
   </div>
 
 </div>
@@ -226,6 +220,7 @@
   <div class="d-flex flex-row">
     <div><img src="facebook.png" class="icons rounded float-end mx-3" alt="Facebook-Icon"></div>
     <div><img src="instagram.png" class="icons rounded float-end" alt="Instagram-Icon"></div>
+    <div><p class="datum mx-5 fs-4 text-black"></p></div>
   </div>
 </div>
 
@@ -233,8 +228,8 @@
 
 
 
-
-    <script src="app.js"></script>
+    <script src="jquery.js"></script>
+    <script type="text/Javascript" src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
