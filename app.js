@@ -1,5 +1,6 @@
 // Verschwinden und Auftauchen von den Buttons
 
+
 $(document).ready(function() {
     $('.homeBtn-1').hide();
 $('.homeBtn-2').hide();
@@ -74,3 +75,9 @@ $(document).ready(function() {
     
 });
 
+
+$(document).ready(function(){
+    $(window).resize(function(){
+        alert("Window is on the move!");
+    });
+});
