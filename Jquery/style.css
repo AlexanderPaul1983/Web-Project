@@ -1,4 +1,5 @@
-body{
-    padding: 50px;
-    
+#carouselExampleInterval{
+    width: 50%;
+    height: 50%;
+    margin-left: 50px;
 }
