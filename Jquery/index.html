@@ -29,29 +29,48 @@
             </h4>
             <button class="btn btn-outline-success bg-warning my-3 mx-4 p-2">Button</button>
         </div>
+        <div class="hide m-5">
+          <h2>Some Awesome Text</h2>
+          <br>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus iste consequuntur dicta, 
+            <br>explicabo suscipit cum? At dignissimos enim, dolores eos perspiciatis sapiente vel, fuga 
+            <br>possimus voluptate tempora debitis, dolorum exercitationem?</p>
+        </div>
 
         
-            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-interval="2000">
-                    <img src="AnimalFuchs.jpg" class="d-block w-100" alt="Luchs">
-                  </div>
-                  <div class="carousel-item" data-interval="2000">
-                    <img src="Download.jpeg" class="d-block w-100" alt="Animal">
-                  </div>
-                  <div class="carousel-item" data-interval="2000">
-                    <img src="images.jpeg" class="d-block w-100" alt="Animal">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </button>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+              <img src="AnimalFuchs.jpg" class="d-block w-100 c-img" alt="Luchs">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Lorem, ipsum.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Libero neque vel nesciunt.</p>
               </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="Download.jpeg" class="d-block w-100 c-img" alt="Pickture">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Lorem, ipsum.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Libero neque vel nesciunt.</p>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="images.jpeg" class="d-block w-100 c-img" alt="animal">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Lorem, ipsum.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Libero neque vel nesciunt.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
        
 
        
